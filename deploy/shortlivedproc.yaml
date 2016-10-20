@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: shortlivedproc
+  labels:
+    name: shortlivedproc
+spec:
+  containers:
+  - name: shortlivedproc
+    image: albanc/shortlivedproc
