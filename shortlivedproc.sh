@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 function short_conn {
 	PORT=$RANDOM
