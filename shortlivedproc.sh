@@ -10,7 +10,7 @@ function short_conn {
 	nc -l -p $PORT &
 	sleep 0.2
 
-	echo Hello | nc 127.0.0.1 $PORT
+	(sleep 0.4 ; echo Hello) | nc 127.0.0.1 $PORT
 
 	wait
 }
